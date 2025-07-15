@@ -1,6 +1,6 @@
 # Phishing Email Detector
 
-This project builds a phishing email classification model using a fine-tuned BERT transformer. It classifies email text as either "Phishing" or "Legit." The model was trained on 15,000 real emails and evaluated on a separate test set with high accuracy. A simple Gradio web app is included for live prediction.
+This project builds a phishing email classification model using a fine-tuned BERT transformer. It classifies email text as either "Phishing" or "Legit." The model was trained on 15,000 real emails and evaluated on a separate test set with high accuracy.
 
 ## Overview
 
@@ -18,7 +18,6 @@ This project builds a phishing email classification model using a fine-tuned BER
 Install dependencies:
 pip install -r requirements.txt
 
-python app.py
 (Optional) To retrain the model:
 
 python phishing_detector.py
