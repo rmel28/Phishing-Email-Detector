@@ -268,7 +268,7 @@ eval_trainer = Trainer(
 
 # Run evaluation
 results = eval_trainer.evaluate(test_dataset)
-print("📊 Evaluation Metrics on Test Set:")
+print("Evaluation Metrics on Test Set:")
 for key, value in results.items():
     print(f"{key}: {value:.4f}")
 
